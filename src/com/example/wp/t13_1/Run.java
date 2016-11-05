@@ -1,4 +1,4 @@
-package com.example.wp.t13;
+package com.example.wp.t13_1;
 
 public class Run {
 
@@ -17,9 +17,11 @@ public class Run {
 
 
 	/**
-	 * i=460429
-	 i=460430
+	 * i=475159
 	 end!
-	 已经是停止状态了，我要退出了!
+	 已经是停止状态
+	 进行MyThread.java类run方法中的catch
+	 java.lang.InterruptedException
+	 at com.example.wp.t13_1.MyThread.run(MyThread.java:11)
 	 */
 }

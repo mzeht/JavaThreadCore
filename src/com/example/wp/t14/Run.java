@@ -1,4 +1,4 @@
-package com.example.wp.t13;
+package com.example.wp.t14;
 
 public class Run {
 
@@ -6,7 +6,7 @@ public class Run {
 		try {
 			MyThread thread = new MyThread();
 			thread.start();
-			Thread.sleep(2000);
+			Thread.sleep(200);
 			thread.interrupt();
 		} catch (InterruptedException e) {
 			System.out.println("main catch");
@@ -15,11 +15,4 @@ public class Run {
 		System.out.println("end!");
 	}
 
-
-	/**
-	 * i=460429
-	 i=460430
-	 end!
-	 已经是停止状态了，我要退出了!
-	 */
 }

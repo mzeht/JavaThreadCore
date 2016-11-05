@@ -1,4 +1,4 @@
-package com.example.wp.t13;
+package com.example.wp.t13forprint;
 
 public class Run {
 
@@ -15,11 +15,10 @@ public class Run {
 		System.out.println("end!");
 	}
 
-
 	/**
-	 * i=460429
-	 i=460430
+	 * i=491668
 	 end!
 	 已经是停止状态了，我要退出了!
+	 我被输出，如果此代码是for又继续运行，线程并未停止
 	 */
 }
